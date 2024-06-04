@@ -1,0 +1,27 @@
+<div></div>
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+  body {
+    margin: 0;
+    background: #1A4341;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div{
+    width: 200px;
+    height: 150px;
+    background: #F3AC3C;
+    border-radius: 0 0 100px;
+  }
+  #a {
+    transform: scaleX(-1);
+  }
+  #b {
+    transform: scaleY(-1);
+  }
+  #c {
+    rotate: 180deg;
+  }
+</style>

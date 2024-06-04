@@ -1,0 +1,59 @@
+<div class="e"></div>
+<div class="e f"></div>
+<div class="e g"></div>
+<div class="a"></div>
+<div class="a b"></div>
+<div class="a b c"></div>
+<div class="a b d"></div>
+<style>
+  body {
+    background: #1A4341;
+  }
+  div {
+    position: absolute;
+  }
+  .a, .e {
+    background: #F3AC3C;
+  }
+  .a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 150px;
+  }
+  .b {
+    background: #998235;
+    scale: .3;
+    top: 85px;
+    left: 135px;
+  }
+  .c {
+    scale: .2;
+    top: 125px;
+    left: 150px;
+  }
+  .d {
+    scale: .1;
+    top: 75px;
+    left: 175px;
+  }
+  .e {
+    width: 10px;
+    height: 180px;
+    border-radius: 5px;
+    top: 50px;
+    left: 195px;
+  }
+  .f, .g {
+    left: 204px;
+  }
+  .f {
+    rotate: 60deg;
+    top: 55px;
+  }
+  .g {
+    rotate: 120deg;
+    top: 65px;
+  }
+</style>

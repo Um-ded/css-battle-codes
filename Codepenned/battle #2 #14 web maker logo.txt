@@ -1,0 +1,37 @@
+<div id="b"></div>
+<div id="a"></div>
+<div id="d"></div>
+<div id="c"></div>
+<style>
+  body {
+    background: #F2F2B6;
+  }
+  div {
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top: 85px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  }
+  #a, #d {
+    background: #FF6D00;
+  }
+  #b, #c {
+    background: #FD4602;
+  }
+  #c, #d {
+    rotate: 180deg;
+  }
+  #a {
+    left: 60px;
+  }
+  #b {
+    left: 80px;
+  }
+  #c {
+    left: 170px;
+  }
+  #d {
+    left: 190px;
+  }
+</style>

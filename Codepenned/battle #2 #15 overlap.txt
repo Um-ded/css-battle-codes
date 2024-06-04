@@ -1,0 +1,28 @@
+<div></div>
+<div class="a">
+  <div class="b"></div>
+</div>
+<style>
+  body {
+    background: #09042A;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #7B3F61;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+  }
+  .a {
+    left: 175px;
+    background: #E78481;
+    overflow: hidden;
+  }
+  .b {
+    top: 0;
+    left: -100;
+    background: #09042A;
+  }
+</style>

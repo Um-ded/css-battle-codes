@@ -1,0 +1,18 @@
+<div></div>
+<style>
+  body {
+    background: #62306D;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 40px solid #F7EC7D;
+    border-top-color: #E38F66;
+    rotate: -45deg;
+  }
+</style>

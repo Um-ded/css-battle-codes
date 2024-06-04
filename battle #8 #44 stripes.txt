@@ -1,0 +1,27 @@
+<div id='_'></div>
+<div class='a'></div>
+<div class='a b'></div>
+<style>
+  body, .a {
+    background: #1A4341;
+  }
+  div {
+    position: absolute;
+  }
+  #_ {
+    width: 400px;
+    height: 180px;
+    background: repeating-linear-gradient(#F3AC3C, #F3AC3C 20px, #1A4341 20px, #1A4341 40px);
+    top: 60px;
+  }
+  .a {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 0;
+    left: -150px;
+  }
+  .b {
+    left: 250px;
+  }
+</style>

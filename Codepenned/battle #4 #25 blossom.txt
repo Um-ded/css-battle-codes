@@ -1,0 +1,37 @@
+<div class="a"></div>
+<div class="a b"></div>
+<div class="c"></div>
+<div class="c d"></div>
+<style>
+  body {
+    background: #998235;
+  }
+  div {
+    position: absolute;
+    width: 80px;
+  }
+  .a, .c {
+    border-radius: 0 50px;
+    left: 110px;
+  }
+  .b, .d {
+    transform: scaleX(-1);
+    left: 210px;
+  }
+  .a {
+    height: 100px;
+    background: #1A4341;
+    top: 60px;
+  }
+  .b {
+    top: 140px;
+  }
+  .c {
+    height: 60px;
+    background: #F3AC3C;
+    top: 180px;
+  }
+  .d {
+    top: 60px;
+  }
+</style>

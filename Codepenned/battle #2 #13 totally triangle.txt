@@ -1,0 +1,13 @@
+<div></div>
+<style>
+  body {
+    background: #0B2429;
+    margin: 0;
+  }
+  div {
+    width: 140px;
+    height: 140px;
+    background: #F3AC3C;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  }
+</style>

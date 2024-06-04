@@ -1,0 +1,45 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<div id="e"></div>
+<div id="f"></div>
+<style>
+  body {
+    background: #90D3A6;
+  }
+  div {
+    height: 20px;
+    background: #024817;
+    border-radius: 20px;
+    position: absolute;
+  }
+  #a {
+    width: 200px;
+    left: 100px;
+    top: 220px;
+  }
+  #b {
+    width: 180px;
+    left: 110px;
+    top: 140px;
+    rotate: 90deg;
+  }
+  #c, #d, #e, #f {
+    width: 70px;
+  }
+  #c, #d {
+    rotate: 30deg;
+    left: 143px;
+  }
+  #e, #f {
+    rotate: -30deg;
+    left: 187px;
+  }
+  #c, #e {
+    top: 107.5px;
+  }
+  #d, #f {
+    top: 157.5px;
+  }
+</style>

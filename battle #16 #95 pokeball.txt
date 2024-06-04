@@ -1,0 +1,40 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+  body {
+    background: #6CB3A9;
+  }
+  div {
+    position: absolute;
+  }
+  #a, #b {
+    left: 100px;
+  }
+  #a, #c {
+    border-radius: 50%;
+  }
+  #a {
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(#FFFFFF 0deg, #FFFFFF 180deg, #D25B70 180deg);
+    rotate: 90deg;
+    top: 50px;
+  }
+  #b {
+    width: 180px;
+    height: 20px;
+    background: #781728;
+    top: 140px;
+    border-left: 10px solid #6CB3A9;
+    border-right: 10px solid #6CB3A9;
+  }
+  #c {
+    width: 50px;
+    height: 50px;
+    background: #F6DF96;
+    border: 10px solid #781728;
+    top: 115px;
+    left: 165px;
+  }
+</style>

@@ -1,0 +1,39 @@
+<div id="a"></div>
+<div class="b"></div>
+<div class="b c"></div>
+<div class="b d"></div>
+<div class="b e"></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+    width: 100px;
+  }
+  #a {
+    height: 150px;
+    background: #4F77FF;
+    border-radius: 50px 50px 0 0;
+    top: 75px;
+    left: 150px;
+  }
+  .b {
+    height: 20px;
+    background: #191919;
+    left: 170px;
+    top: 205px;
+  }
+  .c {
+    left: 190px;
+    top: 181px;
+  }
+  .d {
+    left: 210px;
+    top: 157px;
+  }
+  .e {
+    left: 230px;
+    top: 133px;
+  }
+</style>

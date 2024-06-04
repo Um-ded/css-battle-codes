@@ -1,0 +1,23 @@
+<div></div>
+<div class="a"></div>
+<div class="b"></div>
+<style>
+  div {
+    width: 200px;
+    height: 50px;
+    background: #A3A368;
+    position: absolute;
+    left: 100px;
+    top: 125px;
+    rotate: -45deg;
+  }
+  .a {
+    rotate: 45deg;
+    background: #F3AC3C;
+  }
+  .b {
+    width: 50px;
+    left: 175px;
+    background: #FBE18C;
+  }
+</style>

@@ -1,0 +1,46 @@
+<div class="a"></div>
+<div class="b c"></div>
+<div class="b d"></div>
+<div class="b e"></div>
+<div class="b f"></div>
+<style>
+  body {
+    background: #6867D4;
+  }
+  div {
+    position: absolute;
+  }
+  .a {
+    width: 100px;
+    height: 250px;
+    background: #7BAFDE;
+    clip-path: polygon(0 0, 100% 50px, 100% 100%, 0 200px);
+    top: 25px;
+    left: 150px;
+  }
+  .b {
+    width: 100px;
+    height: 150px;
+    top: 75px;
+    clip-path: polygon(0 50px, 100% 0, 100% 100px, 0 100%);
+  }
+  .c, .d {
+    background: #000039;
+  }
+  .e, .f {
+    background: #7BAFDE;
+    transform: scaleX(-1);
+  }
+  .c {
+    left: 50px;
+  }
+  .d {
+    left: 250px;
+  }
+  .e {
+    right: 350px;
+  }
+  .f {
+    left: 350px;
+  }
+</style>

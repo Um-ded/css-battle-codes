@@ -1,0 +1,29 @@
+<div id="_">
+  <div class="a"></div>
+  <div class="a b"></div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  div {
+    position: absolute;
+  }
+  #_ {
+    width: 110px;
+    height: 250px;
+    top: 30px;
+    left: 145px;
+    overflow: hidden;
+  }
+  .a {
+    width: 80px;
+    height: 182px;
+    border: 30px solid #243D83;
+    border-radius: 80px;
+    left: -70px;
+  }
+  .b {
+    left: 40px;
+  }
+</style>

@@ -1,0 +1,44 @@
+<div class="a"></div>
+<div class="a b"></div>
+<div class="a c"></div>
+<div class="d"></div>
+<div class="d e"></div>
+<div class="d f"></div>
+<div id='g'></div>
+<style>
+  body {
+    background: #5F133F;
+  }
+  div {
+    position: absolute;
+  }
+  .a {
+    height: 220px;
+    width: 50px;
+    background: #F7BED9;
+    clip-path: polygon(50% 0%, 100% 30px, 100% 190px, 50% 100%, 0% 190px, 0% 30px);
+    left: 175px;
+    top: 40px;
+  }
+  .d {
+    width: 50px;
+    height: 160px;
+    background: #F075B0;
+    left: 175px;
+    top: 70px;
+  }
+  .b, .e {
+    rotate: 60deg;
+  }
+  .c, .f {
+    rotate: 120deg;
+  }
+  #g {
+    width: 50px;
+    height: 50px;
+    background: #F7BED9;
+    border-radius: 50%;
+    left: 175px;
+    top: 125px;
+  }
+</style>

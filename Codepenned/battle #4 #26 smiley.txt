@@ -1,0 +1,28 @@
+<div></div>
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    border: 20px solid transparent;
+    border-left-color: #060F55;
+    border-top-color: #060F55;
+    border-radius: 50%;
+    rotate: 45deg;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  #a {
+    left: 240px;
+  }
+  #b {
+    left: 140px;
+    top: 140px;
+    rotate: 225deg;
+  }
+</style>

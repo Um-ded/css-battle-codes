@@ -1,0 +1,69 @@
+<div class='a b'></div>
+<div class='a c'></div>
+<div class='d e'></div>
+<div class='d f'></div>
+<div class='g h'></div>
+<div class='g i'></div>
+<div class='g j'></div>
+<div class='g k'></div>
+<style>
+  body {
+    background: #F48B26;
+  }
+  div {
+    position: absolute;
+  }
+  .a, .d {
+    width: 200px;
+    height: 150px;
+  }
+  .a {
+    background: #F48B26;
+    border: 20px solid #FEFF58;
+    border-radius: 60px;
+    top: 180px;
+  }
+  .b {
+    left: 240px;
+  }
+  .c {
+    right: 240px;
+  }
+  .d, .g {
+    background: #FEFF58;
+    border-radius: 10px;
+  }
+  .d {
+    top: 230px;
+  }
+  .e {
+    left: 290px;
+  }
+  .f {
+    right: 290px;
+  }
+  .g {
+    height: 20px;
+  }
+  .h {
+    width: 160px;
+    left: 120px;
+    top: 30px;
+  }
+  .i {
+    width: 240px;
+    left: 80px;
+    top: 80px;
+  }
+  .j {
+    width: 320px;
+    left: 40px;
+    top: 130px;
+  }
+  .k {
+    width: 320px;
+    rotate: 90deg;
+    left: 40px;
+    top: 140px;
+  }
+</style>

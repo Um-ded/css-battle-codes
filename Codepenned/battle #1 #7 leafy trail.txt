@@ -1,0 +1,29 @@
+<div data-a></div>
+<div data-b></div>
+<div data-c></div>
+<style>
+  body {
+    background: #0B2429;
+    margin: 0;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #dd6b4d;
+    border-radius: 66% 0;
+    position: absolute;
+    top: 75px;
+  }
+  div[data-a] {
+    left: 75px;
+    background: #1A4341;
+  }
+  div[data-b] {
+    left: 125px;
+    background: #998235;
+  }
+  div[data-c] {
+    left: 175px;
+    background: #F3AC3C;
+  }
+</style>

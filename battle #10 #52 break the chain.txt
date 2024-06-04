@@ -1,0 +1,64 @@
+<div class="o"></div>
+<div class="o p"></div>
+<div class="o q"></div>
+<div id='_'>
+  <div class="a"></div>
+  <div class="a"></div>
+  <div class="a"></div>
+  <div class="a b"></div>
+  <div class="a"></div>
+  <div class="a"></div>
+  <div class="a"></div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  div, ::after {
+    position: absolute;
+  }
+  #_ {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    gap: 25px;
+    top: 130px;
+    left: 40px;
+  }
+  .a {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  .a::after {
+    content: '';
+    width: 10px;
+    height: 55px;
+    top: 5px;
+    left: 5px;
+  }
+  .b {
+    margin-left: 30px;
+  }
+  .o {
+    width: 40px;
+    height: 40px;
+    background: #EEB850;
+    top: 120px;
+    left: 30px;
+  }
+  .p {
+    top: 110px;
+    left: 75px;
+    scale: 1.5;
+  }
+  .q {
+    left: 120px;
+  }
+  .a, .a::after {
+    background: #243D83;
+  }
+  .a, .o {
+    border-radius: 50%;
+  }
+</style>

@@ -1,0 +1,50 @@
+100% match:
+
+<style>
+  body {
+    background: radial-gradient(1px at 50% 75px, #0000 65px, #243D83 65px 85px, #0000), radial-gradient(1px at 50% 225px, #0000 65px, #243D83 65px 85px, #0000), radial-gradient(1px at 125px, #0000 65px, #243D83 65px 85px, #0000), radial-gradient(1px at 275px, #0000 65px, #243D83 65px 85px, #0000), radial-gradient(200px, #6592CF 100px, #243D83 1%);
+  }
+</style>
+
+99.9% match:
+
+<div id="a"></div>
+<div class="b"></div>
+<div class="b c"></div>
+<div class="b d"></div>
+<div class="b d e"></div>
+<style>
+  body {
+    background: #243D83;
+  }
+  div {
+    position: absolute;
+  }
+  #a, .b {
+    border-radius: 50%;
+  }
+  #a {
+    width: 200px;
+    height: 200px;
+    background: #6592CF;
+    top: 50px;
+    left: 100px;
+  }
+  .b {
+    width: 130px;
+    height: 130px;
+    border: 20px solid #243D83;
+    top: 65px;
+    left: 40px;
+  }
+  .c {
+    left: 190px;
+  }
+  .d {
+    left: 115px;
+    top: -10px;
+  }
+  .e {
+    top: 140px;
+  }
+</style>

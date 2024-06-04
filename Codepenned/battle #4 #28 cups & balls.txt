@@ -1,0 +1,51 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="f"></div>
+<div class="g"></div>
+<div class="h"></div>
+<style>
+  body {
+    background: #1A4341;
+  }
+  div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  .a, .b, .c, .d {
+    border-radius: 50%;
+  }
+  .a, .b, .g, .h {
+    background: #998235;
+  }
+  .c, .d, .e, .f {
+    background: #F3AC3C;
+  }
+  .a, .d, .f, .g {
+    top: 90px;
+  }
+  .b, .c, .e, .h {
+    top: 160px;
+  }
+  .e, .h {
+    border-radius: 0 0 50% 50%;
+  }
+  .f, .g {
+    border-radius: 50% 50% 0 0;
+  }
+  .a, .e {
+    left: 70px;
+  }
+  .b, .f {
+    left: 140px;
+  }
+  .c, .g {
+    left: 210px;
+  }
+  .d, .h {
+    left: 280px;
+  }
+</style>

@@ -1,0 +1,30 @@
+<div id="a"></div>
+<div class="b"></div>
+<div class="b c"></div>
+<style>
+  body, .b {
+    background: #F3AC3C;
+  }
+  div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    rotate: -45deg;
+  }
+  #a {
+    background: #1A4341;
+    border: 35px solid #F3AC3C;
+    box-shadow: 0 0 0 30px #998235;
+    top: 100px;
+    left: 148px;
+  }
+  .b {
+    height: 35px;
+    top: 87px;
+    left: 137px;
+  }
+  .c {
+    left: 229px;
+    rotate: 45deg;
+  }
+</style>

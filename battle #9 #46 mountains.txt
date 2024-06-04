@@ -1,0 +1,25 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body {
+    background: #FFF1C1;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  #a {
+    width: 400px;
+    height: 300px;
+    background: #FE5F55;
+    clip-path: polygon(10px 300px, 130px 179px, 150px 200px, 241px 109px, 400px 268px);
+  }
+  #b {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 200px #293462;
+  }
+</style>

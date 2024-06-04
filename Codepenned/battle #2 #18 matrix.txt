@@ -1,0 +1,28 @@
+<div data-a></div><div data-b></div>
+<div data-a></div><div data-b></div>
+<div data-b></div><div data-a></div>
+<div data-b></div><div data-a></div>
+<div data-a></div><div data-b></div>
+<div data-a></div><div data-b></div>
+<style>
+  body {
+    background: #5C434C;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0 0;
+  }
+  div[data-a] {
+    background: #F09462;
+  }
+  div[data-b] {
+    background: #F5D6B4;
+  }
+</style>

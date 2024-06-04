@@ -1,0 +1,22 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body {
+    background: #AA445F;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+  }
+  #a {
+    left: 75px;
+    background-image: conic-gradient(transparent 0deg, transparent 180deg, #F7EC7D 180deg);
+  }
+  #b {
+    left: 125px;
+    background-image: conic-gradient(#E38F66 0deg, #E38F66 180deg, transparent 180deg);
+  }
+</style>

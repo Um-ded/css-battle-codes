@@ -1,0 +1,32 @@
+<div class="b"></div>
+<div class="a"></div>
+<span></span>
+<style>
+  body {
+    background: #293462;
+  }
+  div {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 100px;
+  }
+  .a {
+    top: 90px;
+    background: #FE5F55;
+  }
+  .b {
+    top: 110px;
+    background: #A64942;
+  }
+  span {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    left: 130px;
+    top:120px;
+    background: #A64942;
+    border-radius: 20px;
+  }
+</style>

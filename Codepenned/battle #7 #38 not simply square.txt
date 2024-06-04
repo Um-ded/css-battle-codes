@@ -1,0 +1,21 @@
+<div></div>
+<div id="b"></div>
+<style>
+  body {
+    background: linear-gradient(to right, #FFF1C1 50%, #293462 50%);
+  }
+  div {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background: #FE5F55;
+    top: 200px;
+    left: 0;
+    border-right: 50px solid #A64942;
+  }
+  #b {
+    top: 50px;
+    left: 150px;
+    rotate: 90deg;
+  }
+</style>

@@ -1,0 +1,27 @@
+<div class="a"></div>
+<div></div>
+<div class="b"></div>
+<div class="c"></div>
+<style>
+  body {
+    margin: 0;
+  }
+  div {
+    width: 400px;
+    height: 100px;
+  }
+  .a {
+    background: #13AA4B;
+  }
+  .b {
+    background: #EC1E25;
+  }
+  .c {
+    height: 300px;
+    position: absolute;
+    background: #000000;
+    left: 0;
+    top: 0;
+    clip-path: polygon(0 0, 120px 100px, 120px 200px, 0 100%);
+  }
+</style>
