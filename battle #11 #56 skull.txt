@@ -1,0 +1,61 @@
+<div id='a'></div>
+<div id='b'></div>
+<div class='c'></div>
+<div class='c d'></div>
+<div class='c e'></div>
+<div class='f'></div>
+<div class='f g'></div>
+<div class='f h'></div>
+<style>
+  body, div {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  #a, #b {
+    background: #4F77FF;
+    height: 100px;
+  }
+  .c, .f {
+    height: 40px;
+  }
+  #a {
+    width: 120px;
+    border-radius: 60px 60px 10px 10px;
+    top: 85px;
+    left: 140px;
+  }
+  #b {
+    width: 80px;
+    border-radius: 0 20px 20px;
+    top: 115px;
+    left: 160px;
+  }
+  .c {
+    width: 40px;
+    border-radius: 50%;
+    top: 138px;
+    left: 155px;
+  }
+  .d {
+    left: 205px;
+  }
+  .e {
+    top: 166px;
+    left: 180px;
+    scale: .5;
+  }
+  .f {
+    width: 10px;
+    border-radius: 5px;
+    top: 205px;
+    left: 180px;
+  }
+  .g {
+    left: 195px;
+  }
+  .h {
+    left: 210px;
+  }
+</style>
