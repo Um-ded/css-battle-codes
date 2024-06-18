@@ -1,0 +1,35 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+    background: #5DBCF9;
+  }
+  #a {
+    height: 200px;
+    border-radius: 50%;
+    top: 50px;
+    left: 125px;
+    background: radial-gradient(#191919, #191919 40px, #5DBCF9 40px, #5DBCF9 50px, #191919 50px, #191919 65px, #5DBCF9 65px, #5DBCF9 75px, #191919 75px, #191919 90px, #5DBCF9 90px);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  }
+  #b {
+    height: 300px;
+    clip-path: polygon(100% 50px, 100% 250px, 50% 50%);
+  }
+  #c {
+    width: 60px;
+    height: 50px;
+    top: 125px;
+    left: 75px;
+    border-radius: 10px;
+  }
+  #a, #b {
+    width: 200px;
+  }
+</style>
