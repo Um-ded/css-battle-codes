@@ -1,0 +1,46 @@
+<div id='a'></div>
+<div id='b'></div>
+<div class='c'></div>
+<div class='c d'></div>
+<div id='e'></div>
+<style>
+  body {
+    background: #998235;
+  }
+  div {
+    position: absolute;
+  }
+  #a {
+    width: 150px;
+    background: linear-gradient(to right, #191919, #191919 25px, #EFF33C 25px, #EFF33C 35px, #191919 35px, #191919 60px, #EFF33C 60px, #EFF33C 70px, #191919 70px, #191919 95px, #EFF33C 95px);
+    border-radius: 40px;
+    top: 150px;
+  }
+  #b {
+    border: 7.5px solid #191919;
+    top: 170px;
+    left: 240px;
+  }
+  .c {
+    top: 75px;
+  }
+  #a, .c {
+    height: 75px;
+    left: 125px;
+  }
+  #b, .c {
+    border-radius: 50%;
+  }
+  .d {
+    left: 200px;
+  }
+  #e {
+    height: 40px;
+    top: 110px;
+    left: 162px;
+  }
+  .c, #e {
+    width: 75px;
+    background: #FFF;
+  }
+</style>

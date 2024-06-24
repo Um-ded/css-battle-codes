@@ -1,8 +1,7 @@
 <div id='a'></div>
 <div id='b'></div>
-<div id='c'></div>
-<div class='d'></div>
-<div class='d e'></div>
+<div class='c'></div>
+<div class='c d'></div>
 <style>
   body {
     background: #191919;
@@ -12,20 +11,12 @@
     border-radius: 50%;
   }
   #a {
-    width: 160px;
-    height: 160px;
-    background: #824B20;
-    top: 70px;
-    left: 120px;
-  }
-  #b {
-    width: 100px;
-    height: 100px;
-    background: #E08027;
+    border: 50px solid #E08027;
+    box-shadow: 0 0 0 30px #824B20;
     top: 100px;
     left: 150px;
   }
-  #c {
+  #b {
     width: 80px;
     height: 80px;
     rotate: 45deg;
@@ -33,16 +24,16 @@
     border: 20px solid;
     border-color: #0000 #FFF58F #FFF58F #0000;
   }
-  .d {
+  .c {
     width: 20px;
     height: 20px;
     background: #FFF58F;
     top: 140px;
   }
-  #c, .d {
+  #b, .c {
     left: 140px;
   }
-  .e {
+  .d {
     left: 240px;
   }
 </style>

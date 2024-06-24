@@ -1,0 +1,38 @@
+<div a></div>
+<div a b></div>
+<div a c></div>
+<div a c d></div>
+<style>
+  body {
+    background: #66284A;
+  }
+  div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 20px solid #D86F45;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    rotate: 135deg;
+  }
+  [b] {
+    left: 210px;
+    border-color: #D669EC;
+    rotate: -45deg;
+  }
+  [c] {
+    top: 40px;
+    left: 150px;
+    border-color: #F0CD48;
+    rotate: 225deg;
+  }
+  [d] {
+    top: 160px;
+    border-color: #FDFBF8;
+    rotate: 45deg;
+  }
+  [a] {
+    border-top-color: #0000;
+  }
+</style>
