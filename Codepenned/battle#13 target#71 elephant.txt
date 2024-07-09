@@ -1,0 +1,78 @@
+<div class='a'>
+  <div class='b'></div>
+</div>
+<div class='a c'>
+  <div class='b'></div>
+</div>
+<div id='d'></div>
+<div id='e'></div>
+<div id='f'></div>
+<div class='g'></div>
+<div class='g h'></div>
+<style>
+  body {
+    background: #998235;
+  }
+  div {
+    position: absolute;
+  }
+  .a, #d {
+    top: 60px;
+  }
+  .a, .b, #e {
+    width: 80px;
+  }
+  .a, .b, #f {
+    height: 180px;
+  }
+  .a, .b, #d, #e, .g {
+    border-radius: 50%;
+  }
+  .b, #f {
+    background: #0B2429;
+  }
+  .a {
+    background: #1A4341;
+    overflow: hidden;
+    left: 50px;
+  }
+  .b {
+    left: 16px;
+  }
+  .c {
+    transform: scaleX(-1);
+    left: 270px;
+  }
+  #d {
+    border: 90px solid #1A4341;
+    left: 110px;
+  }
+  #e, .g {
+    rotate: -45deg;
+  }
+  #e {
+    height: 80px;
+    border: 20px solid;
+    border-color: #FFF #FFF #0000 #0000;
+    top: 190px;
+    left: 140px;
+  }
+  #f {
+    width: 40px;
+    border-radius: 20px;
+    top: 180px;
+    left: 180px;
+  }
+  .g {
+    width: 20px;
+    height: 20px;
+    background: conic-gradient(#0000, #0000 135deg, #0B2429 135deg, #0B2429 315deg, #0000 0);
+    border: 10px solid;
+    border-color: #1A4341 #1A4341 #998235 #998235;
+    top: 130px;
+    left: 150px;
+  }
+  .h {
+    left: 210px;
+  }
+</style>

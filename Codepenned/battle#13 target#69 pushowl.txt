@@ -18,15 +18,13 @@
   #a, .f {
     rotate: 45deg;
   }
-  .b, .f {
-    border: 10px solid #191919;
-  }
   .d, .f {
     border-radius: 50%;
   }
   .b {
     width: 114px;
     height: 114px;
+    border: 10px solid #191919;
     border-radius: 0 50% 50%;
     top: 67px;
     left: 79px;
@@ -51,8 +49,9 @@
     left: 209px;
   }
   .f {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
+    border: 9px solid;
     border-color: #E08027 #0000 #0000 #E08027;
     top: 125px;
     left: 131px;

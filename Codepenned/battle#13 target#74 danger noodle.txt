@@ -1,0 +1,107 @@
+<div id='a'></div>
+<div class='b'></div>
+<div class='b c'></div>
+<div class='d'></div>
+<div class='d e'></div>
+<div class='d f'></div>
+<div class='d f g'></div>
+<div class='d e f g h'></div>
+<div class='i'></div>
+<div class='i j'></div>
+<div class='i k'></div>
+<div class='i k l'></div>
+<div class='i j k l m'></div>
+<div class='n'></div>
+<div class='n o'></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  #a, .d {
+    height: 30px;
+  }
+  #a, .n {
+    width: 50px;
+  }
+  #a {
+    background: #E08027;
+    border-radius: 13px 20px 20px 13px;
+    top: 135px;
+    left: 265px;
+  }
+  .b {
+    border: 5px solid #191919;
+    border-radius: 50%;
+    top: 137px;
+    left: 295px;
+  }
+  .c {
+    top: 153px;
+  }
+  .d, .i, .n {
+    border: 5px solid #E08027;
+    border-bottom: 0;
+  }
+  .d {
+    width: 30px;
+    border-radius: 20px 20px 0 0;
+    top: 55px;
+    left: 30px;
+  }
+  .e {
+    left: 130px;
+    height: 130px;
+  }
+  .f, .k {
+    rotate: 180deg;
+  }
+  .f {
+    top: 210px;
+    left: 180px;
+  }
+  .g {
+    top: 110px;
+    left: -20px;
+  }
+  .h {
+    left: 80px;
+  }
+  .i, .n {
+    height: 65px;
+  }
+  .i {
+    width: 60px;
+    border-radius: 40px 40px 0 0;
+    top: 40px;
+    left: 15px;
+  }
+  .j {
+    left: 115px;
+    height: 165px;
+  }
+  .k {
+    top: 190px;
+    left: 165px;
+  }
+  .l {
+    top: 90px;
+    left: -35px;
+  }
+  .m {
+    left: 65px;
+  }
+  .n {
+    border-right: 0;
+    border-radius: 20px 0;
+    top: 155px;
+    left: 230px;
+  }
+  .o {
+    border-radius: 35px 0;
+    top: 140px;
+    left: 215px;
+  }
+</style>

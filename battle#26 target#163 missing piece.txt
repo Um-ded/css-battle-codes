@@ -1,0 +1,30 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<style>
+  body {
+    background: #D669EC;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #FDFBF8;
+    clip-path: polygon(46% 0, 100% 0, 100% 54%, 54% 100%, 0 100%, 0 46%);
+    position: absolute;
+  }
+  #a {
+    transform: scaleX(-1);
+  }
+  #b {
+    top: 160px;
+  }
+  #c {
+    left: 210px;
+  }
+  #a, #b {
+    left: 90px;
+  }
+  #a, #c {
+    top: 40px;
+  }
+</style>

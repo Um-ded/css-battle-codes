@@ -1,0 +1,88 @@
+<div class='a'></div>
+<div class='a b'></div>
+<div id='c'>
+  <div id='d'></div>
+</div>
+<div class='e'></div>
+<div class='e f'></div>
+<div id='g'></div>
+<div class='h'></div>
+<div class='h i'></div>
+<div id='j'></div>
+<style>
+  body {
+    background: #F3AC3C;
+  }
+  div {
+    position: absolute;
+  }
+  .a, #d, .e, #j {
+    background: #1A4341;
+  }
+  .a, .e, .h {
+    border-radius: 50%;
+  }
+  .a {
+    width: 40px;
+    height: 40px;
+    border: 10px solid #998235;
+    top: 65px;
+    left: 115px;
+  }
+  .b {
+    left: 225px;
+  }
+  #c {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 50% 50% 40% 40%;
+    top: 75px;
+    left: 125px;
+    overflow: hidden;
+  }
+  #d, .h {
+    rotate: 45deg;
+  }
+  #d {
+    width: 50px;
+    height: 50px;
+    top: -35px;
+    left: 50px;
+  }
+  .e, #g {
+    left: 150px;
+  }
+  .e, .h {
+    width: 20px;
+    height: 20px;
+  }
+  .e {
+    top: 135px;
+  }
+  .f {
+    left: 230px;
+  }
+  #g {
+    width: 100px;
+    height: 40px;
+    background: #FFF;
+    border-radius: 12px 12px 30px 30px;
+    top: 170px;
+  }
+  .h, #j {
+    top: 160px;
+  }
+  .h {
+    border: 10px solid;
+    border-color: #0000 #1A4341 #1A4341 #0000;
+    left: 165px;
+  }
+  .i, #j {
+    left: 195px;
+  }
+  #j {
+    width: 10px;
+    height: 25px;
+  }
+</style>
