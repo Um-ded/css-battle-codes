@@ -1,0 +1,64 @@
+<div class='a'></div>
+<div class='a b'></div>
+<div class='a c'></div>
+<div class='a d'></div>
+<div class='e'></div>
+<div class='e f'></div>
+<div class='e g'></div>
+<div class='e h'></div>
+<div class='i'></div>
+<div class='i j'></div>
+<div class='i k'></div>
+<div class='i l'></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+    background: #FE5F55
+  }
+  .c, .g, .k {
+    background: #A64942;
+  }
+  .a {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    top: 170px;
+  }
+  .e {
+    width: 10px;
+    height: 99px;
+  }
+  .a, .e {
+    right: 295px;
+  }
+  .e, .i {
+    top: 90px;
+  }
+  .b, .f {
+    right: 225px;
+  }
+  .c, .g {
+    right: 155px;
+  }
+  .d, .h {
+    right: 85px;
+  }
+  .i {
+    width: 35px;
+    height: 10px;
+    left: 310px;
+  }
+  .j {
+    top: 110px;
+  }
+  .k {
+    left: 240px;
+  }
+  .l {
+    width: 70px;
+    left: 100px;
+  }
+</style>

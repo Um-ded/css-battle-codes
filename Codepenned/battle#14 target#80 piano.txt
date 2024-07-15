@@ -1,0 +1,53 @@
+<div id='a'>
+  <div class='b'></div>
+  <div class='b'></div>
+  <div class='b'></div>
+  <div class='b'></div>
+  <div class='b'></div>
+  <div class='b'></div>
+  <div class='b'></div>
+</div>
+<div id='c'>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d e'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+</div>
+<style>
+  body {
+    background: #998235;
+  }
+  #a, #c {
+    position: absolute;
+    top: 100px;
+    display: flex;
+  }
+  #a, .d {
+    background: #191919;
+  }
+  #a {
+    width: 180px;
+    height: 100px;
+    left: 110px;
+    border-radius: 10px;
+  }
+  .b {
+    width: 20px;
+    background: #FFF;
+    margin: 25px 0 5px 5px;
+    border-radius: 5px;
+  }
+  #c {
+    width: 150px;
+    height: 65px;
+    left: 125px;
+  }
+  .d {
+    width: 15px;
+    margin: 5px;
+  }
+  .e {
+    margin-left: 30px;
+  }
+</style>
