@@ -1,4 +1,4 @@
-100% match:
+100% match solution:
 
 <style>
   body {
@@ -6,7 +6,7 @@
   }
 </style>
 
-99.9% match:
+99.9% match solution:
 
 <div id="a"></div>
 <div class="b"></div>
