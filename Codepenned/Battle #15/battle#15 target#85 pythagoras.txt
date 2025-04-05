@@ -1,0 +1,35 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<style>
+  body {
+    background: #D25B70;
+  }
+  div {
+    position: absolute;
+  }
+  #a {
+    width: 100px;
+    height: 100px;
+    background: #F7F3DA;
+    top: 150px;
+    left: 150px;
+  }
+  #b {
+    width: 80px;
+    height: 80px;
+    background: #F6DF96;
+    top: 54px;
+    left: 202px;
+  }
+  #c {
+    width: 60px;
+    height: 60px;
+    background: #6CB3A9;
+    top: 78px;
+    left: 114px;
+  }
+  #b, #c {
+    rotate: 37deg;
+  }
+</style>

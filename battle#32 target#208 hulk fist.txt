@@ -1,0 +1,46 @@
+<div id='a'></div>
+<div class='b'></div>
+<div class='b c'></div>
+<div class='b d'></div>
+<div class='b c e'></div>
+<div id='f'></div>
+<style>
+  body {
+    background: radial-gradient(circle, #161D1A 115px, #107640 115px);
+  }
+  div {
+    position: absolute;
+    background: #107640;
+  }
+  #a, .b {
+    left: 132px;
+  }
+  #a {
+    width: 130px;
+    height: 130px;
+    top: 161px;
+  }
+  .b {
+    width: 22px;
+    height: 31px;
+    bottom: 146px;
+  }
+  .c {
+    left: 168px;
+    height: 51px;
+  }
+  .d {
+    left: 204px;
+    height: 56px;
+  }
+  .e {
+    left: 240px;
+  }
+  #f {
+    width: 86px;
+    height: 42px;
+    border: 7px solid #161D1A;
+    top: 144px;
+    left: 179px;
+  }
+</style>

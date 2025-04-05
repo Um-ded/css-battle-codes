@@ -1,0 +1,15 @@
+<div></div>
+<style>
+  body {
+    background: linear-gradient(#D25B70 50%, #6CB3A9 50%);
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background: linear-gradient(#F6DF96 50%, #0000 50%, #0000 115px, #F6DF96 115px, #F6DF96 125px, #0000 125px, #0000 140px, #F6DF96 140px, #F6DF96 150px, #0000 150px, #0000 165px, #F6DF96 165px, #F6DF96 175px, #0000 175px, #0000 190px, #F6DF96 190px);
+  }
+</style>

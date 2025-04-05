@@ -1,0 +1,39 @@
+<div id='a'></div>
+<div class='b'></div>
+<div class='b c'></div>
+<div class='d'></div>
+<style>
+  body, .b {
+    background: #6592CF;
+  }
+  div {
+    position: absolute;
+    background: #243D83;
+  }
+  #a {
+    width: 400px;
+    height: 50px;
+    top: 125px;
+  }
+  .b, .d {
+    border-radius: 50%;
+  }
+  .b {
+    width: 32px;
+    height: 32px;
+    top: 108px;
+    left: 71px;
+    box-shadow: 226px 0 #6592CF;
+  }
+  .c {
+    top: 160px;
+  }
+  .d {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+    color: #243D83;
+    box-shadow: 226px 0, -226px 0;
+  }
+</style>

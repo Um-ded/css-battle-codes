@@ -1,0 +1,47 @@
+<div class='a'></div>
+<div class='a b'></div>
+<div class='a c'></div>
+<div class='a d'></div>
+<div id='e'></div>
+<div id='f'></div>
+<style>
+  body {
+    background: #8AB8B6;
+  }
+  div {
+    position: absolute;
+  }
+  .a, #f {
+    width: 100px;
+  }
+  .a {
+    height: 250px;
+    background: #EEF8FF;
+    top: -25px;
+    border-radius: 50px/25px;
+    left: 0;
+  }
+  .b, #e {
+    left: 100px;
+  }
+  .c, #f {
+    left: 200px;
+  }
+  .d {
+    left: 300px;
+  }
+  #e, #f {
+    background: #4A7D7B;
+  }
+  #e {
+    width: 200px;
+    height: 60px;
+    top: 172px;
+    clip-path: polygon(0 0, 100% 0, 83% 100%, 17% 100%);
+  }
+  #f {
+    height: 140px;
+    top: 32px;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+</style>

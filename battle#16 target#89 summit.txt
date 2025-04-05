@@ -1,0 +1,29 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<style>
+  div {
+    position: absolute;
+  }
+  #a, #b, #c {
+    left: 100px;
+  }
+  #a {
+    border: 100px solid #F9E492;
+    top: 50px;
+    border-radius: 50%;
+  }
+  #b, #c {
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    rotate: 45deg;
+    background: #4F77FF;
+  }
+  #c {
+    clip-path: circle(100px at -3% -3%)
+  }
+  body, #c {
+    background: #191919;
+  }
+</style>

@@ -1,0 +1,38 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<div id='d'></div>
+<style>
+  body {
+    background: #37212D;
+  }
+  div {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+  }
+  #b, #c, #d {
+    border-radius: 50%;
+    rotate: 45deg;
+  }
+  #c, #d {
+    border: 60px solid;
+  }
+  #a {
+    width: 240px;
+    height: 120px;
+    background: linear-gradient(90deg, #76608A, #76608A 50%, #EE9B99 50%);
+  }
+  #b {
+    border: 120px solid;
+    border-color: #BCE6E9 #0000 #0000 #EE9B99;
+  }
+  #c {
+    top: 150px;
+    border-color: #BCE6E9 #0000 #0000 #BCE6E9;
+  }
+  #d {
+    left: 140px;
+    border-color: #76608A #76608A #0000 #0000;
+  }
+</style>

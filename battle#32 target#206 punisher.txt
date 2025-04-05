@@ -1,0 +1,69 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+</div>
+<div class='e'></div>
+<div class='e f'></div>
+<div id='g'></div>
+<style>
+  body, #g {
+    background: #CAE5DC;
+  }
+  div {
+    position: absolute;
+  }
+  #a, #b, .d {
+    background: #000;
+  }
+  #a, .e {
+    border-radius: 50%;
+  }
+  #b, #c {
+    top: 155px;
+  }
+  #a {
+    width: 140px;
+    height: 140px;
+    top: 40px;
+    left: 130px;
+  }
+  #b {
+    width: 100px;
+    height: 25px;
+    left: 150px;
+  }
+  #c {
+    width: 76px;
+    height: 118px;
+    left: 162px;
+    display: flex;
+    gap: 4px;
+  }
+  .d {
+    width: 16px;
+    position: relative;
+  }
+  .e {
+    width: 46px;
+    height: 46px;
+    background: conic-gradient(#0000 0deg, #0000 180deg, #CAE5DC 180deg);
+    rotate: 298deg;
+    top: 97px;
+    left: 144px;
+  }
+  .f {
+    rotate: 242deg;
+    left: 209px;
+  }
+  #g {
+    width: 21px;
+    height: 32px;
+    top: 134px;
+    left: 189px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+</style>

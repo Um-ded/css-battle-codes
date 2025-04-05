@@ -1,0 +1,42 @@
+<div id='a'></div>
+<div id='b'></div>
+<div class='c'></div>
+<div class='c d'></div>
+<style>
+  body {
+    background: #F3AC3C;
+  }
+  div {
+    position: absolute;
+  }
+  #a, #b {
+    top: 71px;
+    height: 166px;
+  }
+  #a, .c {
+    border-radius: 50%;
+  }
+  #a {
+    width: 166px;
+    background: #000;
+    outline: 17px solid #9F3333;
+    left: 117px;
+  }
+  #b {
+    width: 36px;
+    background: #9F3333;
+    left: 182px;
+  }
+  .c {
+    width: 30px;
+    height: 30px;
+    background: conic-gradient(#fff 0deg, #fff 180deg, #0000 180deg);
+    rotate: 118deg;
+    top: 128px;
+    left: 138px;
+  }
+  .d {
+    rotate: 62deg;
+    left: 231px;
+  }
+</style>

@@ -1,0 +1,17 @@
+<div></div>
+<style>
+  body {
+    background: #202939;
+  }
+  div {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    transform: skewY(30deg);
+    position: absolute;
+    top: 125px;
+    left: 175px;
+    color: #556787;
+    box-shadow: -20px 32px #fff, 20px -31px #fff, 55px 25px, -55px -25px;
+  }
+</style>
