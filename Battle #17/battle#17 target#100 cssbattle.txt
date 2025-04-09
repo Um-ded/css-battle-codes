@@ -1,0 +1,65 @@
+<div id='a'></div>
+<div id='b'></div>
+<div id='c'></div>
+<div id='d'></div>
+<div id='e'></div>
+<div id='f'></div>
+<style>
+  body {
+    display: grid;
+    place-items: center;
+  }
+  div {
+    position: absolute;
+  }
+  body, #c {
+    background: #14313E;
+  }
+  div, ::before, ::after {
+    background: #FFDF00;
+    display: block;
+    content: '';
+  }
+  #a {
+    width: 294px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  #b {
+    width: 274px;
+    height: 150px;
+    background: linear-gradient(90deg, #FFDF00 14.5%, #14313E 14.5%, #14313E 85.5%, #FFDF00 85.5%);
+    border-radius: 20px;
+  }
+  #c {
+    width: 224px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  #d, #e {
+    width: 20px;
+    height: 200px;
+    border-radius: 8px;
+    transform: rotate(45deg) translate(-4px, 3px);
+  }
+  #d::before, #e::before {
+    width: 30px;
+    height: 140px;
+    translate: -5px 5px;
+    outline: 10px solid #14313E;
+  }
+  #d::after, #e::after {
+    width: 80px;
+    height: 20px;
+    translate: -30px 0px;
+  }
+  #e {
+    transform: rotate(-45deg) translate(4px, 3px);
+  }
+  #f {
+    width: 22px;
+    height: 22px;
+    translate: -62.5px -68px;
+    box-shadow: 125px 0 #FFDF00;
+  }
+</style>
