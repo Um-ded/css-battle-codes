@@ -1,0 +1,27 @@
+<div id='a'></div>
+<div id='b'></div>
+<style>
+  body {
+    background: #E3516E;
+  }
+  div {
+    position: absolute;
+    background: #D9D9D9;
+  }
+  #a {
+    width: 100px;
+    height: 100px;
+    border-radius: 100% 0;
+    top: 100px;
+    left: 150px;
+    rotate: 45deg;
+  }
+  #b {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: -75px;
+    left: -75px;
+    box-shadow: 400px 300px #D9D9D9;
+  }
+</style>

@@ -1,0 +1,14 @@
+<div></div>
+<style>
+  body {
+    background: #4F77FF;
+  }
+  div {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: repeating-linear-gradient(90deg, #1038BF, #1038BF 60px, #0000 60px, #0000 80px, #fff 80px, #fff 100px, #0000 100px, #0000 120px);
+  }
+</style>

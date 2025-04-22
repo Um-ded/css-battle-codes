@@ -1,0 +1,20 @@
+<div></div>
+<div id='a'></div>
+<style>
+  body {
+    background: #E3516E;
+  }
+  div {
+    width: 130px;
+    height: 150px;
+    background: #FADE8B;
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    clip-path: polygon(0 0, 67% 0, 100% 46%, 100% 100%, 75px 100%, 75px 100px, 90px 100px, 50% 40%, 40px 100px, 55px 100px, 55px 100%, 0 100%);
+  }
+  #a {
+    left: 210px;
+    transform: scaleX(-1);
+  }
+</style>
